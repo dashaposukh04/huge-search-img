@@ -37,9 +37,9 @@ div p{
 	margin: auto;
 	vertical-align: middle;
 	position: absolute;
-	top: 50%;                         /* 3 */
-   transform: translate(0, -50%);
-   text-transform: capitalize;
+	top: 50%;                         
+   	transform: translate(0, -50%);
+   	text-transform: capitalize;
 }
 
 img {	
@@ -92,6 +92,7 @@ margin-right: 20px;
 }
 
 .button:hover{
+	transition: .3s;
 	width: 70px;
 	height: 70px;
 }
